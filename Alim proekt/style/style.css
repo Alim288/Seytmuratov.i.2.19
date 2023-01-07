@@ -1,0 +1,249 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.first_img {
+    float: left;
+    position: relative;
+    bottom: 10px;
+    background-color: rgba(83, 195, 81, 0.33);
+    box-shadow: -20px -40px 200px 200px rgba(83, 195, 81, 0.33);
+    border-radius: 100px;
+}
+
+.first_img img {
+    width: 134px;
+    height: 230px;
+    float: left;
+    position: relative;
+    bottom: 50px
+}
+
+.none {
+    float: right;
+    position: relative;
+    top: 200px;
+    right: 50px;
+    box-shadow: 20px 40px 500px 300px rgba(255, 233, 120, 0.33);
+}
+
+.ul_list li {
+    float: left;
+    line-height: 35px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.login_btn {
+    position: relative;
+    z-index: 2;
+}
+
+.ul_list li:not(:last-child) {
+    margin-right: 45px;
+}
+
+.login_btn a{
+    padding: 10px 32px;
+    background-color: #0CA941;
+    border-radius: 6px;
+    color: white;
+}
+
+.main {
+    margin-top: 85px;
+}
+
+.left_main {
+    margin-top: 100px;
+}
+
+.left_main h1 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 76px;
+    color: #374A3D;
+    font-family: 'Fredoka One', sans-serif;
+    letter-spacing: 3px;
+}
+
+.left_main h1 span {
+    color: #0CA941;
+}
+
+.right_main {
+    border: none;
+}
+
+.right_main img {
+    border: none;
+    max-width: 700px;
+    background-color: rgba(83, 195, 81, 0.2);
+    box-shadow: 0px 0px 200px 200px rgba(83, 195, 81, 0.2);
+}
+
+.left_main p {
+    margin-top: 38px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #707070;
+    letter-spacing: 0.5px;
+}
+
+.left_main a {
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #374A3D;
+    border: 2px solid #0CA941;
+    padding: 24px 40px;
+    border-radius: 100%;    
+}
+
+.left_main img {
+    width: 101px;
+    height: 210px;
+    float: right;
+    margin-top: 15%;
+    margin-right: 5%;
+}
+
+.menu_drop {
+    line-height: 33px;
+}
+
+.about_us {
+    margin-top: 110px;
+}
+
+.shade {
+    float: left;
+    box-shadow: 0px 0px 200px 300px rgba(255, 233, 120, 0.2);
+}
+
+.about_us_content {
+    display: flex;
+    justify-content: space-around;
+    background: #FFFFFF;
+    box-shadow: 23px 19px 138px -45px rgba(12, 169, 65, 0.23);
+    border-radius: 28px;
+    position: relative;
+    z-index: 2;
+}
+
+.first_au {
+    width: 290px;
+    margin: 48px 3% 5% 48px;
+}
+
+.first_au h1 {
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #374A3D;
+}
+
+.first_au p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -1px;
+    color: #5B7262;
+}
+
+.stats_au {
+    width: 161px;
+    margin: auto 0px;
+}
+
+.stats_au h1 {
+    font-size: 50px;
+    font-weight: 800;
+    color: #0CA941;
+    background: url(../img/Vector.svg) 5% no-repeat;
+    background-size: contain;
+}
+
+.stats_au p {
+    color: #678570;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -1px;
+}
+
+.service {
+    margin-top: 140px;
+}
+
+.left-serv {
+    width: 637px;
+}
+
+.right_serv {
+    margin-top: 50px;
+}
+
+.right_serv h1 {
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 44px;
+    color: #374A3D;
+}
+
+.right_serv p {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #678570;
+}
+
+@media (max-width: 1400px) {
+    .left_main {
+        text-align: center;
+    }
+    .right_main {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 991px) {
+    .first_au {
+        width: 500px;
+    }
+    .stats_au {
+        width: 500px;
+    }
+}
+
+@media (max-width: 400px) {
+    .left_main h1 {
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 60px;
+        color: #374A3D;
+        font-family: 'Fredoka One', sans-serif;
+        letter-spacing: 2px;
+    }
+    .left_main p {
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #707070;
+        letter-spacing: 0.5px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .ul_list li:not(:last-child) {
+        margin-right: 30px;
+    }
+}
